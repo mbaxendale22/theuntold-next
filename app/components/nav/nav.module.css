@@ -1,0 +1,91 @@
+.container {
+    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+        0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+        0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+        0 8px 10px -6px rgb(0 0 0 / 0.1);
+    padding: 1rem 0 0rem 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+}
+
+.heading {
+    font-size: 4rem;
+    color: black;
+}
+
+.hamburger {
+    height: 32px;
+    width: 32px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: none;
+    cursor: pointer;
+}
+
+.line {
+    display: block;
+    height: 3.5px;
+    width: 100%;
+    background-color: black;
+}
+
+.menuList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1.2rem;
+}
+
+.hamburgerContainer {
+    padding: 0.125rem 0.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.category {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.6ch;
+    font-size: 1.1rem;
+    background-color: black;
+    padding: 0.25rem 1.5rem 0.25rem 0.5rem;
+}
+
+.menuItem {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4ch;
+    font-size: 1.1rem;
+}
+
+.menuContainer {
+    width: 50vw;
+    max-width: 500px;
+    padding: 1rem 0 1rem 4.3rem;
+    position: absolute;
+    top: 9.3rem;
+    left: 0.5rem;
+    transition: transform 0.4s ease 0s;
+    background-color: white;
+    /* opacity: 0.65; */
+    border: 3.5px solid black;
+    box-shadow: var(--shadow-md);
+    z-index: 2;
+}
+
+.sideBarOpen {
+    transform: translateX(0);
+}
+.sideBarClosed {
+    transform: translateX(-100vw);
+}
