@@ -3,11 +3,11 @@
 import Link from 'next/link'
 import styles from './nav.module.css'
 import { useState } from 'react'
-import { inter, oswald } from '@/app/fonts'
-import { CATEGORIES } from '@/app/utils/globals'
+import { oswald } from '@/app/fonts'
+import { CATEGORIES, Categories } from '@/app/utils/globals'
 
 interface Props {
-    category: string
+    category: Categories
     primaryColor: string
 }
 
@@ -36,7 +36,7 @@ export default function Nav(props: Props) {
                                             : {}
                                     }
                                 >
-                                    <Link href={`category/${cat}`}>{cat}</Link>
+                                    <Link href={`/category/${cat}`}>{cat}</Link>
                                 </li>
                             ))}
                         </ul>

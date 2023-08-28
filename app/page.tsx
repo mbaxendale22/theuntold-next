@@ -2,11 +2,15 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Nav from './components/nav/Nav'
 import { oswald, syne } from './fonts'
+import { Categories } from './utils/globals'
 
 export default function Home() {
     return (
         <>
-            <Nav category="Latest" primaryColor={'hsl(10, 79%, 65%)'} />
+            <Nav
+                category={Categories.latest}
+                primaryColor={'hsl(10, 79%, 65%)'}
+            />
             <main className={styles.main}>
                 <div
                     style={{
