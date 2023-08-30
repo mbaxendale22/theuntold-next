@@ -1,15 +1,16 @@
-import { Categories } from '@/app/utils/globals'
+import { Categories, PRIMARY_RED } from '@/app/utils/globals'
 import Nav from '../../components/nav/Nav'
 
-export default function blackDahliaPage() {
+export default function BlackDahliaPage() {
     return (
         <>
             <Nav
                 category={Categories.memento_mori}
-                primaryColor={'hsl(10, 79%, 65%)'}
+                primaryColor={PRIMARY_RED}
             />
-            <div style={{ minHeight: '100dvh' }}></div>
-            <p>This is the black dahlia page!</p>
+            <main style={{ minHeight: '100dvh' }}>
+                <p>This is the black dahlia page!</p>
+            </main>
         </>
     )
 }

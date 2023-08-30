@@ -40,5 +40,15 @@ const nulliparous = {
         },
     ],
 }
+const latest = {
+    category: Categories.latest,
+    articles: [
+        {
+            title: 'this is a title from the latest category',
+            subtitle: 'this is a subtitle',
+            thumbnail: 'path/to/thumbnail',
+        },
+    ],
+}
 
-export const articleData = [fervor, hunger, memento_mori, nulliparous]
+export const articleData = [fervor, hunger, memento_mori, nulliparous, latest]

@@ -66,6 +66,11 @@
     text-transform: uppercase;
     letter-spacing: 0.4ch;
     font-size: 1.1rem;
+    transition: transform 0.2s ease 0s;
+}
+
+.menuItem:hover {
+    transform: scale(1.025);
 }
 
 .menuContainer {

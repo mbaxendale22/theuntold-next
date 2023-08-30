@@ -1,8 +1,9 @@
-import Image from 'next/image'
+/* eslint-disable @next/next/no-img-element */
 import styles from './page.module.css'
 import Nav from './components/nav/Nav'
 import { oswald, syne } from './fonts'
 import { Categories } from './utils/globals'
+import Link from 'next/link'
 
 export default function Home() {
     return (
@@ -11,22 +12,14 @@ export default function Home() {
                 category={Categories.latest}
                 primaryColor={'hsl(10, 79%, 65%)'}
             />
-            <main className={styles.main}>
-                <div
-                    style={{
-                        width: '1600px',
-                        height: '400px',
-                        border: '1px solid black',
-                        position: 'relative',
-                    }}
-                >
-                    <Image
-                        src={'/dahlia-main.jpg'}
-                        width={1600}
-                        height={400}
-                        alt="put the alt in later"
-                        objectFit="contain"
-                    />
+            <main className={`${styles.main} ${styles.wrapper} `}>
+                <div className={styles.heroImageContainer}>
+                    <Link href="/article/black-dahlia">
+                        <img
+                            src="/dahlia-hero-image.webp"
+                            alt="image of the Hollywood sign with dahlia flowers"
+                        />
+                    </Link>
                     <div
                         className={`${syne.className} ${styles.headingContainer}`}
                     >
