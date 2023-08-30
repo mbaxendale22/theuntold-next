@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Oswald } from 'next/font/google'
 import Nav from './components/nav/Nav'
+import { roboto } from './fonts'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +18,12 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body
+                className={roboto.className}
+                style={{ backgroundColor: '#F5F5F5' }}
+            >
+                {children}
+            </body>
         </html>
     )
 }
