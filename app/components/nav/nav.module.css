@@ -74,8 +74,8 @@
 }
 
 .menuContainer {
-    width: 50vw;
-    max-width: 500px;
+    width: 75vw;
+    max-width: 350px;
     padding: 1rem 0 1rem 4.3rem;
     position: absolute;
     top: 9.3rem;
