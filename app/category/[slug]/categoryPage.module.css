@@ -5,11 +5,9 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    max-width: calc(100% - 4rem);
+    max-width: var(--max-width);
     padding: 2rem 0;
     margin: 0 auto;
-    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
-        0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 .card__wrapper {
@@ -41,5 +39,5 @@
 }
 
 .text__wrapper:hover {
-    color: hsl(10, 79%, 65%);
+    color: var(--primary-red);
 }

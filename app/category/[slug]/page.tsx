@@ -1,6 +1,6 @@
 import { articleData } from '@/app/data/categorisedArticles'
 import Nav from '@/app/components/nav/Nav'
-import { Categories, PRIMARY_RED } from '@/app/utils/globals'
+import { PRIMARY_RED } from '@/app/utils/globals'
 import styles from './categoryPage.module.css'
 import Link from 'next/link'
 
