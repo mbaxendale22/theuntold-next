@@ -67,12 +67,6 @@ export default function Section_5() {
                 <br />
                 <br />
             </blockquote>
-
-            <p className={styles.references}>
-                Geberth, V. J. (2010). Crime scene staging: An exploratory study
-                of the frequency and characteristics of sexual posing in
-                homicides. Investigative Sciences Journal, 2(2), 1-19.
-            </p>
         </section>
     )
 }

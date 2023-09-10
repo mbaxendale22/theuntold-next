@@ -37,7 +37,7 @@ export default function Nav(props: Props) {
                                     }
                                 >
                                     <Link href={`/category/${cat}`}>
-                                        {cat.replace('_', ' ')}
+                                        {cat.replaceAll('_', ' ')}
                                     </Link>
                                 </li>
                             ))}
@@ -61,7 +61,7 @@ export default function Nav(props: Props) {
                 </button>
                 <div>
                     <h3 className={`${oswald.className} ${styles.category}`}>
-                        {category.replace('_', ' ')}
+                        {category.replaceAll('_', ' ')}
                     </h3>
                 </div>
             </div>

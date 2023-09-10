@@ -3,6 +3,7 @@ export enum Categories {
     nulliparous = 'nulliparous',
     fervor = 'fervor',
     memento_mori = 'memento_mori',
+    the_male_gaze = 'the_male_gaze',
     latest = 'latest',
 }
 
@@ -11,6 +12,7 @@ export const CATEGORIES = [
     'nulliparous',
     'fervor',
     'memento_mori',
+    'the_male_gaze',
     'latest',
 ]
 

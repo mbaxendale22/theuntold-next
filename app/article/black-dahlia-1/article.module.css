@@ -1,0 +1,53 @@
+.wrapper {
+    max-width: calc(100% - 4rem);
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+
+.wrapper p {
+    line-height: 2rem;
+}
+
+.wrapper h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 3rem 0 3rem 0;
+    text-align: center;
+}
+
+.wrapper h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.wrapper blockquote {
+    padding: 2rem 4rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper .main__quote {
+    font-size: 1rem;
+}
+
+.references {
+    font-size: 0.9rem;
+}
+.caption {
+    font-size: 0.9rem;
+    font-style: italic;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+@media (min-width: 700px) {
+    .wrapper blockquote {
+        padding: 1rem 8rem;
+    }
+}
+@media (min-width: 1200px) {
+    .wrapper {
+        max-width: 1200px;
+    }
+}

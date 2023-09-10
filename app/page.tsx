@@ -23,10 +23,11 @@ export default function Home() {
                         className={`${syne.className} ${styles.headingContainer}`}
                     >
                         <h3 className={`${styles.date} `}>September 1st 23</h3>
-                        <Link href="/article/black-dahlia">
+                        <Link href="/article/black-dahlia-1">
                             <h1 className={styles.title}>
                                 The Black Dahlia killing – An ‘adventuress’ who
                                 ‘prowled Hollywood Boulevard’
+                                <br /> 1/2
                             </h1>
                         </Link>
                         <h3

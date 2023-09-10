@@ -1,54 +1,14 @@
-import { Categories } from '../utils/globals'
-
-const fervor = {
-    category: Categories.fervor,
-    articles: [
-        {
-            title: 'this is a title from the fervor category',
-            subtitle: 'this is a subtitle',
-            thumbnail: 'path/to/thumbnail',
-        },
-    ],
+export const black_dahlia_1 = {
+    id: 1,
+    title: 'The Black Dahlia Killing, Part One',
+    subtitle: `An 'adventuress' who 'prowled Hollywood Boulevard'`,
+    thumbnail: '/dahlia/Dahliaimages05.webp',
+    article_url: '/article/black-dahlia-1',
 }
-const hunger = {
-    category: Categories.hunger,
-    articles: [
-        {
-            title: 'this is a title from the hunger category',
-            subtitle: 'this is a subtitle',
-            thumbnail: 'path/to/thumbnail',
-        },
-    ],
+export const black_dahlia_2 = {
+    id: 2,
+    title: 'The Black Dahlia Killing, Part Two',
+    subtitle: `An 'adventuress' who 'prowled Hollywood Boulevard'`,
+    thumbnail: '/dahlia/Dahliaimages05.webp',
+    article_url: '/article/black-dahlia-1',
 }
-const memento_mori = {
-    category: Categories.memento_mori,
-    articles: [
-        {
-            title: 'this is a title from the memento_mori category',
-            subtitle: 'this is a subtitle',
-            thumbnail: 'path/to/thumbnail',
-        },
-    ],
-}
-const nulliparous = {
-    category: Categories.nulliparous,
-    articles: [
-        {
-            title: 'this is a title from the nulliparous category',
-            subtitle: 'this is a subtitle',
-            thumbnail: 'path/to/thumbnail',
-        },
-    ],
-}
-const latest = {
-    category: Categories.latest,
-    articles: [
-        {
-            title: 'this is a title from the latest category',
-            subtitle: 'this is a subtitle',
-            thumbnail: 'path/to/thumbnail',
-        },
-    ],
-}
-
-export const articleData = [fervor, hunger, memento_mori, nulliparous, latest]
