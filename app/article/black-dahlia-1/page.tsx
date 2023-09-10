@@ -29,7 +29,7 @@ export default function BlackDahliaPage1() {
                 <Header />
 
                 <img
-                    src="/dahlia/dahliaimages06.webp"
+                    src="/dahlia/Dahliaimages06.webp"
                     alt="  1 - the suburban character of Leimert Park, Los Angeles. 2 -
                     media coverage of the crime scene. 3 - crime scene photo."
                     style={{ paddingTop: '2rem' }}
@@ -42,7 +42,7 @@ export default function BlackDahliaPage1() {
                 <Section_1 />
 
                 <img
-                    src="/dahlia/dahliaimages07.webp"
+                    src="/dahlia/Dahliaimages07.webp"
                     alt="a collage of images of the victim"
                     style={{ paddingTop: '2rem' }}
                 />
@@ -70,7 +70,7 @@ export default function BlackDahliaPage1() {
                 </div>
             </main>
             <img
-                src="/dahlia/dahliaimages05.webp"
+                src="/dahlia/Dahliaimages05.webp"
                 alt="three detectives stand over the crime scene"
             />
         </>

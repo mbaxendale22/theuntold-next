@@ -41,8 +41,10 @@ export default function BlackDahliaPage2() {
                 <Section_4 />
 
                 <img
-                    src="/dahlia/dahliaimages04.webp"
-                    alt=""
+                    src="/dahlia/Dahliaimages04.webp"
+                    alt="   Marcel Duchamp, Étant donnés (Given: 1. The Waterfall, 2.
+                        The Illuminating Gas, French: Étant donnés: 1° la chute
+                        d'eau / 2° le gaz d'éclairage), 1946–1966, mixed media."
                     style={{ paddingTop: '2rem' }}
                 />
                 <p className={styles.caption}>
@@ -54,8 +56,8 @@ export default function BlackDahliaPage2() {
                 <Section_5 />
             </main>
             <img
-                src="/dahlia/dahliaimages02.webp"
-                alt="image of the Hollywood sign with dahlia flowers"
+                src="/dahlia/Dahliaimages02.webp"
+                alt="image of the Hollywood sign from on top of the hollywood hills "
             />
         </>
     )
