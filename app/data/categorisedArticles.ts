@@ -11,7 +11,7 @@ const hunger = {
 }
 const memento_mori = {
     category: Categories.memento_mori,
-    articles: [black_dahlia_1, black_dahlia_2],
+    articles: [black_dahlia_1],
 }
 const nulliparous = {
     category: Categories.nulliparous,
@@ -20,11 +20,11 @@ const nulliparous = {
 
 const the_male_gaze = {
     category: Categories.the_male_gaze,
-    articles: [black_dahlia_1, black_dahlia_2],
+    articles: [black_dahlia_1],
 }
 const latest = {
     category: Categories.latest,
-    articles: [black_dahlia_1, black_dahlia_2],
+    articles: [black_dahlia_1],
 }
 
 export const articleData = [

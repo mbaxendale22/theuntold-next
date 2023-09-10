@@ -17,3 +17,4 @@ export const CATEGORIES = [
 ]
 
 export const PRIMARY_RED = 'hsl(10, 79%, 65%)'
+export const OFF_WHITE = '#F5F5F5'

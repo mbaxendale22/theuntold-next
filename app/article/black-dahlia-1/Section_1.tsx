@@ -35,6 +35,7 @@ export default function Section_1() {
                 the Crown Grill Cocktail Lounge at 754 South Olive Street,
                 approximately (600 m) away from the Biltmore.
             </p>
+            <br />
 
             <p>
                 It is not known who Short called from the lobby of the Biltmore.

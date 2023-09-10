@@ -58,7 +58,7 @@ export default function BlackDahliaPage1() {
                     in homicides. Investigative Sciences Journal, 2(2), 1-19.
                 </p>
                 <div>
-                    <h3 className={styles.part__link}>
+                    {/* <h3 className={styles.part__link}>
                         Read part 2 of the story{' '}
                         <Link
                             href="/article/black-dahlia-2"
@@ -66,6 +66,11 @@ export default function BlackDahliaPage1() {
                         >
                             here
                         </Link>
+                    </h3> */}
+
+                    <h3>
+                        Part two of this story is coming September 15
+                        <sup>th</sup>
                     </h3>
                 </div>
             </main>

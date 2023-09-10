@@ -33,7 +33,7 @@ export default function Home() {
                         <h3
                             className={`${oswald.className} ${styles.subtitle}`}
                         >
-                            in Memento Mori
+                            in Memento Mori & The Male Gaze
                         </h3>
                     </div>
                     <div
@@ -43,10 +43,20 @@ export default function Home() {
                             height: '99%',
                             width: '100%',
                             backgroundColor: 'rgba(0,0,0,0.3)',
-                            // zIndex: '-1',
                         }}
                     ></div>
                 </div>
+                <section className={styles.more__container}>
+                    {/* <div className={styles.card}>
+                        <div className={styles.color__block}></div>
+                        <img src="/dahlia/Dahliaimages02.webp" />
+
+                        <div>
+                            <h2>Title</h2>
+                            <h4>Subtitle</h4>
+                        </div>
+                    </div> */}
+                </section>
             </main>
         </>
     )
