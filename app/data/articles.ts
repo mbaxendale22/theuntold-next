@@ -10,5 +10,5 @@ export const black_dahlia_2 = {
     title: 'The Black Dahlia Killing, Part Two',
     subtitle: `An 'adventuress' who 'prowled Hollywood Boulevard'`,
     thumbnail: '/dahlia/Dahliaimages02.webp',
-    article_url: '/article/black-dahlia-1',
+    article_url: '/article/black-dahlia-2',
 }
