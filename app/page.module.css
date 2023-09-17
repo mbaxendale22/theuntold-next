@@ -35,6 +35,10 @@
     color: #fb8da0;
 }
 
+.title__text:hover {
+    color: #fb8da0;
+}
+
 .subtitle {
     font-weight: 300;
     letter-spacing: 0.6ch;

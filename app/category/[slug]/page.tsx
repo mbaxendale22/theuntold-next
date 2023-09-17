@@ -2,7 +2,7 @@ import { articleData } from '@/app/data/categorisedArticles'
 import Nav from '@/app/components/nav/Nav'
 import { PRIMARY_RED } from '@/app/utils/globals'
 import styles from './categoryPage.module.css'
-import Link from 'next/link'
+import ArticleCard from '@/app/components/articleCard'
 
 interface Props {
     params: { slug: string }
@@ -30,20 +30,7 @@ export default function CategoryPage(props: Props) {
             <Nav category={data.category} primaryColor={PRIMARY_RED} />
             <main className={styles.wrapper}>
                 {data.articles.map((article) => (
-                    <Link href={article.article_url} key={article.id}>
-                        <div className={styles.card__wrapper}>
-                            <div className={styles.text__wrapper}>
-                                <h2>{article.title}</h2>
-                                <h4>{article.subtitle}</h4>
-                            </div>
-                            <div className={styles.img__wrapper}>
-                                <img
-                                    src={article.thumbnail}
-                                    alt={article.title}
-                                />
-                            </div>
-                        </div>
-                    </Link>
+                    <ArticleCard article={article} key={article.id} />
                 ))}
             </main>
         </>

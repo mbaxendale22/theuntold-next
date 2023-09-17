@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.medium {
+    enable-background: new 0 0 48 48;
+}
